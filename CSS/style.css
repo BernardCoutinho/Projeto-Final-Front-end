@@ -146,6 +146,9 @@ li > a > i{
     font-size: 40px;
     color:rgb(255, 253, 253);
 }
+ul > img{
+    width:100%;
+}
 
 
 footer{
