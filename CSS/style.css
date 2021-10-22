@@ -1,4 +1,5 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0 auto;
     padding-left: 0;
@@ -9,11 +10,13 @@ body{
     background: rgb(230,214,214);
     background: linear-gradient(90deg, rgba(230,214,214,1) 0%, rgba(70,70,70,1) 23%, rgba(205,205,205,1) 37%, rgba(205,205,205,1) 64%, rgba(70,70,70,1) 75%, rgba(207,207,207,1) 100%);
 }
-
+:root{
+    --font-titles:  'Ubuntu', sans-serif;
+}
 #menu-h ul{
     list-style-type: none;
     padding: 0;
-    background-color: black;
+    background-color: rgb(114, 114, 114);
     margin-bottom: 0;
 }
 
@@ -80,6 +83,7 @@ body{
 }
 
 .txtEdit{
+    font-family: var(--font-titles);
     text-align: justify;
     color: white;
     margin: 10px;
@@ -123,6 +127,25 @@ button {
 
 }
 
+.footTxt ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:absolute;
+    margin:10px;
+}
+.footTxt ul > li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 20px;
+}
+
+li > a > i{
+    font-size: 40px;
+    color:rgb(255, 253, 253);
+}
 
 
 footer{
