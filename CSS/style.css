@@ -60,6 +60,7 @@ body{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 10px;
+  
     
     
 }
@@ -121,9 +122,6 @@ body{
     font-family: var(--font-titles);
     text-align: justify;
     color: white;
-    margin: 10px;
-    margin-right: 100px;
-    
 }
 
 h1{
