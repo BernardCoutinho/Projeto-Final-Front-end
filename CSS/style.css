@@ -17,10 +17,8 @@ body{
     list-style-type: none;
     padding: 0;
     background-color: rgb(114, 114, 114);
-    margin-bottom: 0;
-    
+    margin-bottom: 0;   
 }
-
 
 #menu-h ul li{
     display: inline;
@@ -37,7 +35,6 @@ body{
 
 #menu-h ul li a:hover {
     background-color: gray;
-
 }
 
 .carousel-inner{
@@ -45,6 +42,7 @@ body{
     height: 500px;
     margin-top: 0;
 }
+
 #menu-h ul li:last-child a {
     float: right;
     background-color: grey;
@@ -52,7 +50,7 @@ body{
 
 
 .container{
-    max-width: 80vw;
+    max-width: 95vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -60,9 +58,6 @@ body{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 10px;
-  
-    
-    
 }
 .container  div{
     flex: 10 10 100px;
@@ -70,11 +65,10 @@ body{
     justify-content: center;
     min-width: 400px;
     max-width: 400px;
+    flex-shrink: 0 1;
     flex-wrap: wrap;
-    
-    
-    
 }
+
 .container div div{
     display: flex;
     flex-wrap: wrap;
@@ -82,17 +76,15 @@ body{
     min-width: 400px;
     max-width: 450px;
     justify-content: space-between;
-    
 }
+
 .nossaHist{
     width: 400px;
     background-color: rgb(114, 114, 114);
     border: solid 10px rgb(114, 114, 114);
-    
     box-shadow: -15px 10px rgba(56, 53, 53, 0.603);   
     margin-top: 10px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;    
 }
 
 .pqConos{
@@ -102,8 +94,8 @@ body{
     box-shadow: 15px 10px rgba(56, 53, 53, 0.603);
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
+
 .pqConosReverse{
     flex-direction: column-reverse;
 }
@@ -130,6 +122,7 @@ h1{
     text-align: center;
     margin: 0;
 }
+
 section div h2{
     
     text-align: center;
@@ -144,14 +137,13 @@ button {
     background: rgba(245, 245, 245, 0.678);
     cursor: pointer;
 }
+
 .img{
    
     width: 400px;
     height: 350px;
     margin: 20px;
-    border: solid 10px white;
-    
-    
+    border: solid 10px white;    
 }
 
 
@@ -165,32 +157,29 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content:center;
-    
 }
+
 .footTxt ul > li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
-    
+    margin: 20px;    
 }
 
 li > a > i{
     font-size: 40px;
     color:rgb(255, 253, 253);
 }
+
 ul > img{
     width:100%;
 }
-
-
 
 footer{
     height: 200px;
     background: #8e9eab; 
     background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     margin-top: 100px;
     align-items: center;    
 }
@@ -200,4 +189,3 @@ footer div h3{
     font-size: 40px;
     color: white;
 }
-
