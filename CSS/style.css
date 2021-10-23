@@ -18,6 +18,7 @@ body{
     padding: 0;
     background-color: rgb(114, 114, 114);
     margin-bottom: 0;
+    
 }
 
 
@@ -49,37 +50,71 @@ body{
     background-color: grey;
 }
 
+
+.container{
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+    
+}
+.container  div{
+    flex: 10 10 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 400px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.container div div{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10 10 100px;
+    min-width: 400px;
+    max-width: 450px;
+    justify-content: space-between;
+    
+}
 .nossaHist{
-    width: 30%;
+    width: 400px;
     background-color: rgb(114, 114, 114);
     border: solid 10px rgb(114, 114, 114);
-    margin: 10px;
-    margin-top: 10%;
-    margin-left: 10%;
+    
     box-shadow: -15px 10px rgba(56, 53, 53, 0.603);   
-    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 .pqConos{
-    width: 30%;
+    width: 400px;
     background-color: rgb(114, 114, 114);
     border: solid 10px rgb(114, 114, 114);
-    margin-top: 200px;
-    margin-left: 65%;
     box-shadow: 15px 10px rgba(56, 53, 53, 0.603);
-    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.pqConosReverse{
+    flex-direction: column-reverse;
 }
 
 .musicTodos {
-
-    width: 30%;
+    width: 400px;
+    height: 20%;
     background-color: rgb(114, 114, 114);
     border: solid 10px rgb(114, 114, 114);
-    margin: 200px;
-    margin-top: 200px;
-    margin-left: 10%;
-    box-shadow: -15px 10px rgba(56, 53, 53, 0.603);
-    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: -15px 10px rgba(56, 53, 53, 0.603);  
 }
 
 .txtEdit{
@@ -87,6 +122,8 @@ body{
     text-align: justify;
     color: white;
     margin: 10px;
+    margin-right: 100px;
+    
 }
 
 h1{
@@ -109,37 +146,35 @@ button {
     background: rgba(245, 245, 245, 0.678);
     cursor: pointer;
 }
-.img1{
-    position: absolute;
+.img{
+   
     width: 400px;
     height: 350px;
-    margin: 0%;
-    left: 185%;
+    margin: 20px;
     border: solid 10px white;
+    
+    
 }
-.img2{
-    position: absolute;
-    width: 400px;
-    height: 350px;
-    margin: 0%;
-    right: 185%;
-    border: solid 10px white;
 
+
+.footTitleTxt{
+    text-align: center;
+    color: white;
 }
 
 .footTxt ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    position:absolute;
-    margin:10px;
+    justify-content:center;
+    
 }
 .footTxt ul > li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
     margin: 20px;
+    
 }
 
 li > a > i{
@@ -151,10 +186,15 @@ ul > img{
 }
 
 
+
 footer{
     height: 200px;
-    background-color:rgb(114, 114, 114);
+    background: #8e9eab; 
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     margin-top: 100px;
+    align-items: center;    
 }
 
 footer div h3{
