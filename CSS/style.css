@@ -7,8 +7,8 @@
     font-family:'Open Sans', sans-serif;
 }
 body{
-    background: rgb(230,214,214);
-    background: linear-gradient(90deg, rgba(230,214,214,1) 0%, rgba(70,70,70,1) 23%, rgba(205,205,205,1) 37%, rgba(205,205,205,1) 64%, rgba(70,70,70,1) 75%, rgba(207,207,207,1) 100%);
+    background-image: url('https://img2.pngio.com/seamless-black-jeans-pattern-background-labs-seamless-black-texture-png-200_200.png');
+    background-repeat: repeat;
 }
 :root{
     --font-titles:  'Ubuntu', sans-serif;
@@ -16,7 +16,9 @@ body{
 #menu-h ul{
     list-style-type: none;
     padding: 0;
-    background-color: rgb(114, 114, 114);
+    background: #8e9eab; 
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  
+    background: linear-gradient(to right, #eef2f3d5, #8e9eab); 
     margin-bottom: 0;   
 }
 
@@ -25,8 +27,9 @@ body{
 }
 
 #menu-h ul li a{
+    font-family: var(--font-titles);
     display: inline;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 20px;
     display: inline-block;
@@ -82,21 +85,22 @@ body{
     width: 400px;
     background-color: rgb(114, 114, 114);
     border: solid 10px rgb(114, 114, 114);
-    box-shadow: -15px 10px rgba(56, 53, 53, 0.603);   
-    margin-top: 10px;
-    margin-bottom: 10px;    
+    box-shadow: -15px 10px rgba(255, 255, 255, 0.705); 
+    margin-top: 50px;
+    margin-bottom: 50px;    
 }
 
 .pqConos{
     width: 400px;
     background-color: rgb(114, 114, 114);
     border: solid 10px rgb(114, 114, 114);
-    box-shadow: 15px 10px rgba(56, 53, 53, 0.603);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    box-shadow: 15px 10px rgba(255, 255, 255, 0.705);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.pqConosReverse{
+.inverte{
+    display: flex;
     flex-direction: column-reverse;
 }
 
@@ -105,9 +109,9 @@ body{
     height: 20%;
     background-color: rgb(114, 114, 114);
     border: solid 10px rgb(114, 114, 114);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: -15px 10px rgba(56, 53, 53, 0.603);  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: -15px 10px rgba(255, 255, 255, 0.705); 
 }
 
 .txtEdit{
@@ -117,8 +121,11 @@ body{
 }
 
 h1{
-    background-color: rgb(114, 114, 114);
-    color: white;
+    font-family: var(--font-titles);
+    background: #ffffff; 
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  
+    background: linear-gradient(to right, #eef2f3d5, #8e9eab); 
+    color: rgba(255, 255, 255, 0.822);
     text-align: center;
     margin: 0;
 }
@@ -139,17 +146,17 @@ button {
 }
 
 .img{
-   
-    width: 400px;
-    height: 350px;
-    margin: 20px;
-    border: solid 10px white;    
+    width: 110%;
+    margin: 10px;
+    border: solid 10px rgba(245, 245, 245, 0.678);
+      
 }
 
 
 .footTitleTxt{
     text-align: center;
     color: white;
+    font-size: 30px;
 }
 
 .footTxt ul{
@@ -157,6 +164,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content:center;
+    color: white;
 }
 
 .footTxt ul > li{
@@ -164,6 +172,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 20px;    
+    
 }
 
 li > a > i{
@@ -179,7 +188,7 @@ footer{
     height: 200px;
     background: #8e9eab; 
     background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: linear-gradient(to right, #eef2f3d5, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     margin-top: 100px;
     align-items: center;    
 }
