@@ -120,6 +120,7 @@ body{
     color: white;
 }
 
+
 h1{
     font-family: var(--font-titles);
     background: #ffffff; 
@@ -128,6 +129,8 @@ h1{
     color: rgba(255, 255, 255, 0.822);
     text-align: center;
     margin: 0;
+    font-size: 50px;
+    padding: 1%;
 }
 
 section div h2{
@@ -165,6 +168,7 @@ button {
     align-items: center;
     justify-content:center;
     color: white;
+    padding-left: 0;
 }
 
 .footTxt ul > li{
@@ -175,14 +179,18 @@ button {
     
 }
 
+ul > img{
+    width:100%;
+}
+
 li > a > i{
     font-size: 40px;
     color:rgb(255, 253, 253);
 }
-
-ul > img{
-    width:100%;
+li{
+    list-style-type: none;
 }
+
 
 footer{
     height: 200px;
